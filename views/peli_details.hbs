@@ -1,0 +1,21 @@
+
+<a href="/movies/">Go back</a>
+{{#each peli_details}}
+
+
+    <h1>{{this.title}}</h1>
+   <h2>{{this.director}}</h2>
+   <img src={{this.image}}alt="peli_details" widht="100px" height="100px">
+
+<ul>
+<li>
+    <h2>{{this.starts}}</h2>
+
+
+</li>
+</ul>
+<p><h4>{{this.description}}</h4></p>
+
+{{/each}}
+
+
